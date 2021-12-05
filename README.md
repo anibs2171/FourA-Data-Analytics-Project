@@ -1,8 +1,9 @@
 # FourA-Data-Analytics-Project
 Analysis of Traffic violations in Maryland County
 Attriutes present and their meanings:
+
 The data include items, such as:
-----------------------------------------------------
+####################################################
 Accident : If traffic violation involved an accident.
 Agency : Agency issuing the traffic violation. (Example: MCP is Montgomery County Police)
 Alcohol : If the traffic violation included an alcohol related
@@ -38,7 +39,8 @@ VehicleType : Type of vehicle (Examples: Automobile, Station Wagon, Heavy Duty T
 Violation Type : Violation type. (Examples: Warning, Citation, SERO)
 Work Zone : If the traffic violation was in a work zone.
 Year : Year vehicle was made.
-----------------------------------------------------
+####################################################
+
 There are two datasets present in the repository. One which is the original dataset. And the other dataset was a result of dimensionality reduction.
 The data had many inconsistencies and Nan values which were taken care of by using similarity tests and imputing the Nan values.
 An extensive data visualization has also been done, which are self-explanatory. 
